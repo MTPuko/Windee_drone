@@ -80,3 +80,30 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
+
+/* galeria */
+
+.header {
+  min-height: 100px;
+  background-color: lightgray;
+}
+
+.images+.images {
+  margin-top: 8px;
+}
+
+.images img+img {
+  margin-top: 8px;
+}
+
+
+@media screen and (min-width: 992px) {
+  .images+.images {
+    margin-top: 0;
+  }
+
+  .images img {
+    height: 400px;
+    object-fit: cover;
+  }
+}
