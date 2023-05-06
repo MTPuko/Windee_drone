@@ -84,6 +84,7 @@ header.masthead .masthead-heading {
   }
 }
 
+
 /* galeria */
 
 .header {
@@ -110,6 +111,7 @@ header.masthead .masthead-heading {
     object-fit: cover;
   }
 }
+/* Navbar */
 
 #mainNav.navbar-shrink {
   padding-top: 1rem;
@@ -182,3 +184,6 @@ header.masthead .masthead-heading {
   font-weight: 300;
   line-height: 1.5em;
 }
+
+
+
